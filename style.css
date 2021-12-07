@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.header-top {
+  background: #218ae6;
+  padding: 10px 0;
+}
+.header-top i.fa {
+  padding-right: 10px;
+}
+.header-top,
+.header-top a {
+  color: #fff;
+  padding-right: 30px;
+}
+.site-logo a {
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+}
+ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.menu li {
+  display: inline-block;
+}
+
+ul.menu li a {
+  display: block;
+  color: #333;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+h3.site-logo {
+  padding: 11px 0;
+  margin-bottom: 0;
+}
+.homepage-slides {
+  background: #218ae6;
+  color: #fff;
+  padding: 150px 0;
+}
+.homepage-slides h2 {
+  font-weight: 100;
+  font-size: 50px;
+}
+.homepage-slides p {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.service-btn,
+.service-btn:hover {
+  display: inline-block;
+  text-decoration: none;
+  background: #f8d021;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.service-btn > i {
+  padding-left: 13px;
+  font-size: 14px;
+}
+
+.homepage-slides .owl-dots {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 16px;
+}
+.homepage-slides .owl-dots button.owl-dot {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: #ffbe2c;
+  margin: 4px;
+  border-radius: 50%;
+  transition: all ease .3s;;
+}
+.homepage-slides .owl-dots button.owl-dot.active {
+  background: #FFF;
+}
+button:focus {
+    outline: none;
+}
